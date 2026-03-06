@@ -1,5 +1,9 @@
 # Animation Importer
 
+<video controls width="960" src="https://github.com/user-attachments/assets/647cb192-680b-4e01-8e2e-21a624168b9f">
+	Your viewer does not support embedded video. Open the direct link below.
+</video>
+
 This Blender addon adds an N-panel tab named Animation Importer in the 3D View.
 
 Minimum Blender version: 4.0 or above.
@@ -22,13 +26,6 @@ Usage:
 5. Choose a source .fbx file.
 6. Click `Check FBX Compatibility` if you want to verify the animated-bone match first.
 7. Click `Load Animation` to import and assign the action.
-
-Video Docs:
-- Walkthrough recording (https://github.com/user-attachments/assets/647cb192-680b-4e01-8e2e-21a624168b9f):
-
-<video controls width="960" src="https://github.com/user-attachments/assets/647cb192-680b-4e01-8e2e-21a624168b9f">
-	Your viewer does not support embedded video. Open the direct link below.
-</video>
 
 Notes:
 - This is intended for the same rig structure. It does not retarget between different skeletons.
