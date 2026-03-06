@@ -20,12 +20,7 @@ Usage:
 
 Video Docs:
 - Walkthrough recording:
-
-<video controls width="960" src="docs/2026-03-06%2014-51-18.mp4">
-	Your viewer does not support embedded video. Use the direct link below.
-</video>
-
-- Direct video link: [docs/2026-03-06 14-51-18.mp4](docs/2026-03-06%2014-51-18.mp4)
+https://github.com/user-attachments/assets/647cb192-680b-4e01-8e2e-21a624168b9f
 
 Notes:
 - This is intended for the same rig structure. It does not retarget between different skeletons.
