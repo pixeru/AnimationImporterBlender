@@ -63,38 +63,4 @@ While the implementation is still being defined, the add-on is expected to focus
 
 ## Status
 
-Functional Blender addon MVP.
-
-## Current Addon
-
-The repository now includes a Blender addon in [chain_retargetter_blender](/e:/PC/Desktop/ChainRetargetterBlender/chain_retargetter_blender) that provides a first pass at an Unreal-style chain retargeting workflow:
-
-- detects likely humanoid rig profiles with a percentage score
-- supports built-in profile heuristics for Mixamo, UE4 Mannequin, UE5 Manny/Quinn, and a generic humanoid fallback
-- auto-builds source and target chain mappings for root, spine, arms, and legs
-- scans and lists source actions so multiple animations can be selected and retargeted in one pass
-- bakes retargeted animation onto the target armature as new Blender actions
-
-## Install
-
-1. Zip the [chain_retargetter_blender](/e:/PC/Desktop/ChainRetargetterBlender/chain_retargetter_blender) folder.
-2. In Blender, open Edit > Preferences > Add-ons > Install.
-3. Select the zip file and enable `Chain Retargetter Blender`.
-
-## Workflow
-
-1. Open the `Chain Retarget` panel in the 3D View sidebar.
-2. Set the source armature and the target armature.
-3. Run `Detect Source Rig` and `Detect Target Rig`.
-4. Review the best-match profile and percentage for each rig.
-5. Run `Refresh Source Actions` to load animations that belong to the source armature.
-6. Leave enabled the actions you want to transfer.
-7. Run `Auto Build Chain Map` and review the generated chains.
-8. Adjust bake options and run `Retarget Selected Actions`.
-
-## Notes
-
-- This is a practical MVP, not a full clone of Unreal Engine's IK Retargeter.
-- The current transfer uses chain-driven local rotation baking plus optional root translation scaling.
-- The detection system is heuristic and works best on standard humanoid naming conventions.
-- Finger chains, IK goals, twist bones, and pose correction layers are not yet implemented.
+Early project setup.
